@@ -1,3 +1,5 @@
+package connectfour.graphics;
+
 /**
  * A single column in a Connect 4 game. A column stores a number of individual slots.
  * 
@@ -8,7 +10,7 @@ public class Connect4Column
     private Connect4Slot[] slots;
     
     /**
-     * Creates a new Connect4Column with a given height.
+     * Creates a new connectfour.graphics.Connect4Column with a given height.
      * 
      * Your agent will not need to use this method.
      * 
@@ -23,7 +25,7 @@ public class Connect4Column
         }
     }
     /**
-     * Creates a copy of the given Connect4Column.
+     * Creates a copy of the given connectfour.graphics.Connect4Column.
      * 
      * Your agent will not need to use this method.
      * 
@@ -38,12 +40,12 @@ public class Connect4Column
         }
     }
     /**
-     * Returns a single Connect4Slot from the column.
+     * Returns a single connectfour.graphics.Connect4Slot from the column.
      * 
      * Your agent WILL need to use this method.
      * 
-     * @param i the Connect4Slot to retrieve.
-     * @return the Connect4Slot at that index.
+     * @param i the connectfour.graphics.Connect4Slot to retrieve.
+     * @return the connectfour.graphics.Connect4Slot at that index.
      */
     public Connect4Slot getSlot(int i)
     {

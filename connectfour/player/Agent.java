@@ -1,5 +1,9 @@
+package connectfour.player;
+
+import connectfour.graphics.Connect4Game;
+
 /**
- * The abstract class for an Agent that plays Connect 4.
+ * The abstract class for an connectfour.player.Agent that plays Connect 4.
  * 
  * All Agents must have three things: a constructor that initializes the agent with a game
  * and whether the agent is the red player, a name, and the ability to move.

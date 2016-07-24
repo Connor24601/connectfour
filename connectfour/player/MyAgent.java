@@ -1,3 +1,9 @@
+package connectfour.player;
+
+import connectfour.graphics.Connect4Column;
+import connectfour.graphics.Connect4Game;
+import connectfour.graphics.Connect4Slot;
+
 import java.util.Random;
 
 public class MyAgent extends Agent
@@ -682,6 +688,6 @@ public class MyAgent extends Agent
      */
     public String getName()
     {
-        return "My Agent";
+        return "My connectfour.player.Agent";
     }
 }

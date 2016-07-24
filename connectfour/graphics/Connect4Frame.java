@@ -1,10 +1,12 @@
+package connectfour.graphics;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Random;
 
 /**
- * The main driver of the Connect4Game, as well as the visualization of it.
+ * The main driver of the connectfour.graphics.Connect4Game, as well as the visualization of it.
  * 
  * You should not modify this class, and your agent should not need to access the methods within
  * it directly.
@@ -20,7 +22,7 @@ public class Connect4Frame extends JFrame
     Random r;   // a random number generator to randomly decide who plays first
 
     /**
-     * Creates a new Connect4Frame with a given game and pair of players.
+     * Creates a new connectfour.graphics.Connect4Frame with a given game and pair of players.
      * 
      * Your agent will not need to use this method.
      * 

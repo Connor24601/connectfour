@@ -1,6 +1,9 @@
+package connectfour.player;
 
-import java.util.Scanner;
-import javax.swing.*;
+import connectfour.graphics.Connect4Column;
+import connectfour.graphics.Connect4Game;
+import connectfour.graphics.Connect4Slot;
+
 import java.util.Random;
 import java.lang.Math;
 public class NestedAgent extends Agent
@@ -13,7 +16,7 @@ public class NestedAgent extends Agent
     int pow;
     int lvl;
     /**
-     * Constructor for objects of class Human
+     * Constructor for objects of class connectfour.player.Human
      */
     public NestedAgent(Connect4Game game, boolean iAmRed, int lvl)
     {
@@ -912,6 +915,6 @@ public class NestedAgent extends Agent
     }
     public String getName()
     {
-        return "NestedAgent lvl " + lvl;
+        return "connectfour.player.NestedAgent lvl " + lvl;
     }
 }

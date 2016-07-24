@@ -1,7 +1,9 @@
+package connectfour.graphics;
+
 /**
  * The data structure for a game of Connect 4.
  * 
- * Connect4Game is made of a certain number of Connect4Columns. Each column represents
+ * connectfour.graphics.Connect4Game is made of a certain number of Connect4Columns. Each column represents
  * a column from the current state of the game.
  * 
  * You should not modify this class, but you will need to use methods within it.
@@ -44,12 +46,12 @@ public class Connect4Game
     }
     
     /**
-     * Retrieve a certain Connect4Column from the game board.
+     * Retrieve a certain connectfour.graphics.Connect4Column from the game board.
      * 
      * Your agent WILL need to use this method.
      * 
      * @param i The column to retrieve.
-     * @return the ith Connect4Column if it exists; null otherwise
+     * @return the ith connectfour.graphics.Connect4Column if it exists; null otherwise
      */
     public Connect4Column getColumn(int i)
     {

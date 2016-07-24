@@ -1,10 +1,14 @@
-
+package connectfour.player;
 /**
- * Write a description of class Human here.
+ * Write a description of class connectfour.player.Human here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
+import connectfour.graphics.Connect4Column;
+import connectfour.graphics.Connect4Game;
+import connectfour.graphics.Connect4Slot;
+
 import java.util.Scanner;
 import javax.swing.*;
 public class Human extends Agent
@@ -14,7 +18,7 @@ public class Human extends Agent
     boolean red;
     int moves=0;
     /**
-     * Constructor for objects of class Human
+     * Constructor for objects of class connectfour.player.Human
      */
     public Human(Connect4Game game, boolean iAmRed)
     {
@@ -68,6 +72,6 @@ public class Human extends Agent
     }
     public String getName()
     {
-        return "Human";
+        return "connectfour.player.Human";
     }
 }

@@ -1,3 +1,5 @@
+package connectfour.graphics;
+
 /**
  * A single slot in a Connect 4 board. A slot can be either empty or filled, and it can
  * be filled with either a red token or a yellow token.
@@ -11,7 +13,7 @@ public class Connect4Slot
     private boolean isHighlighted;
     
     /**
-     * Creates a new Connect4Slot, initially unfilled.
+     * Creates a new connectfour.graphics.Connect4Slot, initially unfilled.
      * 
      * Your agent will not need to use this method.
      */

@@ -1,3 +1,5 @@
+package connectfour.graphics;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -14,7 +16,7 @@ public class Connect4Panel extends JPanel
     private int slotSpacing; // space between slots
     
     /**
-     * Creates a new Connect4Panel with a given game.
+     * Creates a new connectfour.graphics.Connect4Panel with a given game.
      * 
      * Your agent will not need to use this method.
      * 
