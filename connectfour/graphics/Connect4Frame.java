@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Random;
-
+import connectfour.player.Agent;
 /**
  * The main driver of the connectfour.graphics.Connect4Game, as well as the visualization of it.
  * 
