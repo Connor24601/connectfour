@@ -1,5 +1,5 @@
 package connectfour.graphics;
-
+import connectfour.graphics.Connect4Slot;
 /**
  * A single column in a Connect 4 game. A column stores a number of individual slots.
  * 
